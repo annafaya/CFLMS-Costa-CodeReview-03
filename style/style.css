@@ -1,0 +1,307 @@
+  @media screen and (max-width: 800px) {
+
+      .bigdiv,
+      
+       {
+          justify-content: center;
+          position: relative;
+          width: 100%;
+          min-width: 600px;
+          margin-top: 15px;
+          min-width: 0px;
+      }
+
+.bigdiv h2 {
+	font-size: 2rem;
+}
+      
+      .divide,
+      .benefits {
+          display: none;
+      }
+
+
+      .linha1 {
+          width: 100%;
+          height: 5em;
+          justify-content: space-around;
+          flex-direction: row;
+      }
+
+      .divs {
+          text-align: center;
+          height: 5rem;
+          width: 45%;
+      }
+
+      .input {
+          height: 2rem;
+          width: 100%;
+          font-size: 1rem;
+          margin: 1rem auto;
+      }
+
+      #submit {
+          font-size: 1rem;
+      }
+
+
+      .benefits1 {
+          flex-direction: column;
+          width: 80%;
+          height: 25rem;
+          margin: 0.5rem auto;
+      }
+
+      .benefits1 h4 {
+          font-size: 2rem;
+      }
+
+      .benefits1 p {
+          font-size: 0.4rem;
+      }
+
+  }
+
+  /*---------------------------------------------------------------*/
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: helvetica;
+  }
+
+  #header {
+      padding: 1rem;
+      background: rgb(255, 243, 243);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: static
+  }
+
+  nav {
+      width: 100%;
+      align-items: flex-start;
+      background-color: rgb(127, 0, 0);
+      display: flex;
+
+  }
+
+  nav li {
+      margin: 0.3em;
+      float: left;
+      list-style: none;
+      justify-content: space-around;
+  }
+
+  li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+  }
+
+  main {
+      width: 100%;
+      height: 45em;
+      background-image: url("../img/traffic-332857_1920.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-top: 1rem;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+      color: white;
+      margin-left: 2rem;
+  }
+
+  .bigdiv {
+      position: relative;
+      margin: 2rem auto;
+      width: 70%;
+      height: 42rem;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.70);
+      border: 2px gray solid;
+  }
+
+  h2 {
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: center;
+      width: 60%;
+      font-size: 3rem;
+      font-weight: normal;
+  }
+
+  .linha1 {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+      height: 5rem;
+      margin: 2rem auto;
+  }
+
+  .divs {
+      width: 40%;
+  }
+
+  .input {
+      width: 100%;
+      height: 3rem;
+      font-size: 2rem;
+      font-weight: bold;
+  }
+
+  #submit {
+      width: 25%;
+      height: 3rem;
+      margin: 2rem auto;
+      text-align: center;
+  }
+
+  #botao {
+      color: white;
+      background-color: #339235;
+      display: grid;
+      place-items: center;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+  }
+
+  #amount {
+      justify-content: center;
+      text-align: center;
+      margin-top: 1rem;
+  }
+
+  .amountp {
+      font-size: 2rem;
+  }
+
+  .divide {
+     
+      width: 100%;
+      height: 14rem;
+      background-color: #ddd;
+  }
+
+  .divide h2 {
+
+      padding-top: 3rem;
+      text-align: center;
+      font-size: 3rem;
+     
+  }
+
+  .divide p {
+
+      text-align: center;
+      width: 70%;
+      margin: 0rem auto;
+      font-size: 1.5rem;
+     
+  }
+
+  .benefits {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 82%;
+      height: 30rem;
+      margin: 0rem auto;
+
+  }
+
+  .benefits1 {
+      border: solid 2px gray;
+    
+      width: 45%;
+      height: 70%;
+  }
+
+  .benefits1 h4 {
+      color: #576b8f;
+      font-size: 1.5rem;
+      margin-left: 2rem;
+      margin-top: 1rem;
+  }
+
+  .benefits1 p {
+      margin: 0rem auto 1rem 2rem;
+  }
+
+  .benefits1 ul li {
+      margin-left: 3rem;
+      margin-bottom: 1rem;
+
+  }
+
+  .benefits1 hr {
+      width: 95%;
+      margin: 0 auto;
+      background-color: rgba(78, 78, 78, 0.2);
+      height: 1px;
+      border: none;
+  }
+
+  .benefits1 h5 {
+      margin-top: 1rem;
+      margin-left: 2rem;
+      font-size: 1rem;
+  }
+
+  .benefits1 h6 {
+      margin-left: 2rem;
+      width: 60%;
+      font-weight: normal;
+      font-size: 1rem;
+      color: gray;
+  }
+
+  footer {
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      justify-content: space-around;
+      background-color: #1A1A1A;
+      margin-top: 3%;
+      height: 10em;
+  }
+
+  nav #footer ul,
+  nav #footer li {
+      text-decoration: none;
+      font-size: 100%;
+      color: #FFFFFF;
+      display: flex;
+      flex-flow: row;
+      justify-content: left;
+  }
+
+  nav #footer li {
+      padding: 0 2vw 0 0;
+  }
+
+  nav #footer ul {
+      padding: 0.2% 0% 0.2% 2.5%;
+  }
+
+  nav #footer {
+      display: flex;
+      justify-content: left;
+      width: 100%;
+      background-color: #1A1A1A;
+  }
+
+  footer p {
+      color: #FFFFFF;
+      padding-bottom: 1%;
+  }
